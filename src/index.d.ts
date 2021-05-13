@@ -1,4 +1,5 @@
-import { Color, Length } from '@nativescript/core';
+import { Color } from 'tns-core-modules/color';
+import { Length } from 'tns-core-modules/ui/styling/style-properties';
 
 export declare class Toasty {
   constructor(opts: ToastyOptions);
@@ -54,6 +55,7 @@ export enum ToastDuration {
 }
 
 export enum ToastPosition {
+  'BOTTOM_FULL_WIDTH' = 'bottomFullWidth',
   'BOTTOM' = 'bottom',
   'BOTTOM_LEFT' = 'bottomLeft',
   'BOTTOM_RIGHT' = 'bottomRight',
