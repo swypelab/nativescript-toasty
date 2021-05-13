@@ -1,18 +1,18 @@
-# NativeScript-Toasty
+# nativescript-swypelab-toasty
 
-[![npm](https://img.shields.io/npm/v/nativescript-toasty.svg)](https://www.npmjs.com/package/nativescript-toasty)
-[![npm](https://img.shields.io/npm/dt/nativescript-toasty.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-toasty)
+[![npm](https://img.shields.io/npm/v/nativescript-swypelab-toasty.svg)](https://www.npmjs.com/package/nativescript-swypelab-toasty)
+[![npm](https://img.shields.io/npm/dt/nativescript-swypelab-toasty.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-swypelab-toasty)
 
 ## Install
 
-`tns plugin add nativescript-toasty`
+`tns plugin add nativescript-swypelab-toasty`
 
 ## Usage
 
 TypeScript
 
 ```js
-import { Toasty } from 'nativescript-toasty';
+import { Toasty } from 'nativescript-swypelab-toasty';
 import { isIOS } from 'tns-core-modules/platform';
 // Toasty accepts an object for customizing its behavior/appearance. The only REQUIRED value is `text` which is the message for the toast.
 const toast = new Toasty({ text: 'Toast message' });
@@ -49,7 +49,7 @@ toasty.show();
 JavaScript
 
 ```js
-var toasty = require('nativescript-toasty').Toasty;
+var toasty = require('nativescript-swypelab-toasty').Toasty;
 var toast = new toasty({ text: 'Toast message' });
 toast.show();
 ```

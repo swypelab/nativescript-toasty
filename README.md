@@ -1,26 +1,26 @@
-# NativeScript-Toasty
+# nativescript-swypelab-toasty
 
-![Build CI](https://github.com/triniwiz/nativescript-toasty/workflows/Build%20CI/badge.svg)
-[![npm](https://img.shields.io/npm/v/nativescript-toasty.svg)](https://www.npmjs.com/package/nativescript-toasty)
-[![npm](https://img.shields.io/npm/dt/nativescript-toasty.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-toasty)
+![Build CI](https://github.com/triniwiz/nativescript-swypelab-toasty/workflows/Build%20CI/badge.svg)
+[![npm](https://img.shields.io/npm/v/nativescript-swypelab-toasty.svg)](https://www.npmjs.com/package/nativescript-swypelab-toasty)
+[![npm](https://img.shields.io/npm/dt/nativescript-swypelab-toasty.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-swypelab-toasty)
 
 ## Install
 
 ### [NativeScript 7.0+](https://github.com/triniwiz/nativescript-plugins)
 
-`tns plugin add @triniwiz/nativescript-toasty`
+`tns plugin add @triniwiz/nativescript-swypelab-toasty`
 
 ### NativeScript < 7.0
 
-`tns plugin add nativescript-toasty@3.0.0-alpha.2`
+`tns plugin add nativescript-swypelab-toasty@3.0.0-alpha.2`
 
 ## Usage
 
 TypeScript
 
 ```js
-/* use package name "nativescript-toasty" for NS < 7.0 */
-import { Toasty } from "@triniwiz/nativescript-toasty" 
+/* use package name "nativescript-swypelab-toasty" for NS < 7.0 */
+import { Toasty } from "@triniwiz/nativescript-swypelab-toasty" 
 
 import { isIOS } from '@nativescript/core/platform';
 // Toasty accepts an object for customizing its behavior/appearance. The only REQUIRED value is `text` which is the message for the toast.
@@ -58,8 +58,8 @@ toasty.show();
 JavaScript
 
 ```js
-/* use package name "nativescript-toasty" for NS < 7.0 */
-var toasty = require('@triniwiz/nativescript-toasty').Toasty;
+/* use package name "nativescript-swypelab-toasty" for NS < 7.0 */
+var toasty = require('@triniwiz/nativescript-swypelab-toasty').Toasty;
 var toast = new toasty({ text: 'Toast message' });
 toast.show();
 ```

@@ -1,6 +1,6 @@
 {
   "name": "nativescript-swypelab-toasty",
-  "version": "3.0.0-alpha.2",
+  "version": "3.0.1",
   "description": "NativeScript toast plugin",
   "main": "toasty",
   "typings": "index.d.ts",
