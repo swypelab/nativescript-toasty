@@ -3,7 +3,6 @@
 .DS_Store
 hooks
 *package-lock.json
-*.js
 *.js.map
 *.log
 *.tgz
